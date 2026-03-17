@@ -5,7 +5,8 @@ import pickle
 model = pickle.load(open("model.pkl","rb"))
 scaler = pickle.load(open("scaler.pkl","rb"))
 
-st.title("Diabetes Predictor")
+st.image("")
+st.title("PragyanAI - Diabetes Predictor")
 
 inputs = [st.number_input(f) for f in 
 ['Pregnancies','Glucose','BP','Skin','Insulin','BMI','Pedigree','Age']]
